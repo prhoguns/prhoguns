@@ -1,7 +1,7 @@
 ### Philips Rhoguns
 
 Computer Science student at York University (graduating December 2026), Toronto.
-Background in 24/7 security operations; building toward data engineering and security analytics.
+Background in 24/7 security operations; building toward data engineering, security engineering and network automation.
 CompTIA Security+ · AWS Certified DevOps Engineer – Professional · Microsoft PL-400
 
 **Data engineering and analytics**
@@ -20,5 +20,14 @@ CompTIA Security+ · AWS Certified DevOps Engineer – Professional · Microsoft
 |---|---|
 | [soc-alert-analytics](https://github.com/prhoguns/soc-alert-analytics) | SIEM alert and triage analytics (rule tuning, SLAs, ATT&CK coverage, attack chains) plus Isolation Forest anomaly detection evaluated against planted incidents. |
 | [sigma-detection-pack](https://github.com/prhoguns/sigma-detection-pack) | Eleven Sigma rules converted to SQL, Splunk and Sentinel KQL with pySigma, tested in CI against a corpus with planted positives and near-misses. |
+| [pcap-threat-hunting](https://github.com/prhoguns/pcap-threat-hunting) | PCAP → Zeek → SQL hunts for C2 beaconing, DGA and exfiltration, scored against planted ground truth. |
+| [aws-security-auto-remediation](https://github.com/prhoguns/aws-security-auto-remediation) | CloudTrail + GuardDuty + Config → EventBridge → Lambda remediations, Terraform-deployed, tested against mocked AWS. |
+| [vuln-prioritization](https://github.com/prhoguns/vuln-prioritization) | Trivy scans enriched with CISA KEV and EPSS, tiered in SQL: 3,934 findings → 95 that matter. |
+
+**Network engineering**
+
+| | |
+|---|---|
+| [network-automation-lab](https://github.com/prhoguns/network-automation-lab) | Six-router FRRouting lab (OSPF, iBGP, dual-homed eBGP with policy) generated from YAML with Jinja2 and verified by 22 tests on every push. |
 
 [LinkedIn](https://linkedin.com/in/philips-rhoguns-266748180) · orhogun@gmail.com
