@@ -1,7 +1,7 @@
 ### Philips Rhoguns
 
 Computer Science student at York University (graduating December 2026), Toronto.
-Background in 24/7 security operations; building toward data engineering, security engineering and network automation.
+Background in 24/7 security operations; building toward data engineering, systems and database administration, and security engineering.
 CompTIA Security+ · AWS Certified DevOps Engineer – Professional · Microsoft PL-400
 
 **Data engineering and analytics**
@@ -13,6 +13,14 @@ CompTIA Security+ · AWS Certified DevOps Engineer – Professional · Microsoft
 | [databricks-credit-risk-mlflow](https://github.com/prhoguns/databricks-credit-risk-mlflow) | Credit-risk model in Spark MLlib with the full MLflow lifecycle: tracking, CV tuning, registry alias, batch scoring. AUC 0.78, KS 0.43. |
 | [ttc-realtime-pipeline](https://github.com/prhoguns/ttc-realtime-pipeline) | Streaming: live TTC vehicle positions (GTFS-Realtime) → Redpanda/Kafka → idempotent PostgreSQL sink → live route views. |
 | [toronto-crime-sql-analytics](https://github.com/prhoguns/toronto-crime-sql-analytics) | Twenty SQL questions on a decade of police data, a findings write-up, and a [live dashboard](https://prhoguns.github.io/toronto-crime-sql-analytics/). |
+
+**Database and systems administration**
+
+| | |
+|---|---|
+| [postgres-dba-toolkit](https://github.com/prhoguns/postgres-dba-toolkit) | PostgreSQL primary/replica with verified point-in-time recovery and failover drills, a diagnostics query library and measured index tuning (24.9 ms → 0.2 ms). |
+| [ansible-server-baseline](https://github.com/prhoguns/ansible-server-baseline) | Linux provisioning and hardening in eight Ansible roles, proven idempotent and verified against 41 CIS Benchmark checks. |
+| [directory-services-lab](https://github.com/prhoguns/directory-services-lab) | Active Directory domain (Samba AD) with Kerberos, LDAP and DNS, a joined Linux client authenticating real users, and a tested user lifecycle. |
 
 **Security analytics and detection engineering**
 
