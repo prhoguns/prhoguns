@@ -22,6 +22,8 @@ The project READMEs include setup steps, design decisions and limitations. These
 - **Cloud & platform:** [AWS Security Auto-Remediation](https://github.com/prhoguns/aws-security-auto-remediation), [Azure Toronto Data Platform](https://github.com/prhoguns/azure-toronto-data-platform)
 - **Data:** [TTC Real-Time Pipeline](https://github.com/prhoguns/ttc-realtime-pipeline), [Credit Risk with MLflow](https://github.com/prhoguns/databricks-credit-risk-mlflow)
 - **Security:** [SOC Alert Analytics](https://github.com/prhoguns/soc-alert-analytics), [PCAP Threat Hunting](https://github.com/prhoguns/pcap-threat-hunting), [Vulnerability Prioritization](https://github.com/prhoguns/vuln-prioritization)
+- **AI tooling:** [Toronto Data MCP Server](https://github.com/prhoguns/toronto-data-mcp) (read-only MCP server with a SQL guard, least-privilege role and end-to-end protocol tests)
+- **IT administration:** [Microsoft 365 Identity and Device Lab](https://github.com/prhoguns/m365-identity-lab) (PowerShell and Microsoft Graph: onboarding, offboarding, Conditional Access and Intune as code, help desk runbooks)
 - **Infrastructure:** [Ansible Server Baseline](https://github.com/prhoguns/ansible-server-baseline), [Network Automation Lab](https://github.com/prhoguns/network-automation-lab), [Directory Services Lab](https://github.com/prhoguns/directory-services-lab)
 
 CompTIA Security+ · AWS Certified DevOps Engineer – Professional · Microsoft Power Platform Developer Associate
